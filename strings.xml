@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">How to 3D Print in 5 Steps</string>
+    <string name="yesButton">Begin on Step 3!</string>
+    <string name="noButton">Awesome! Start with Step 1!</string>
+</resources>

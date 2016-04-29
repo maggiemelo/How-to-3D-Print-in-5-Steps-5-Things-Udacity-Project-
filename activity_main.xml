@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:contexts=".MainActvity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        tools:context="com.example.android.howto3dprint.MainActivity"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3D Print Your Idea in 5 Steps!"
+            android:textStyle="bold"
+            android:textColor="#090909"
+            android:textAlignment="center"
+            android:paddingBottom="15dp"
+            android:textSize="50sp" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="175dp"
+            android:src= "@drawable/cactusprint"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Presented by the iSpace"
+            android:gravity="center"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:src= "@drawable/ualogo"
+            android:textAlignment="center" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="15dp"
+            android:background="@android:color/darker_gray"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#090909"
+            android:layout_marginTop="10dp"
+            android:text="Do you have a 3D model ready to print?"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= ""
+                android:id="@+id/textView" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:id="@+id/button2"
+                android:onClick="ButtonOnClick2" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:gravity="center"
+                android:id="@+id/button"
+                android:onClick="buttonOnClick" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/darker_gray"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 1: The Idea"
+            android:textColor="#100150"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You need an idea to begin the process. What do you want printed? Ultimately, you'll need a 3D model. You can search for your desired object/idea on sites such as Thingiverse.com. If you can't find what you're looking for, then it's time to 3D model your idea!"
+            android:textColor="#100150"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 2: 3D Modeling Your Idea"
+            android:textColor="#100150"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New to 3D modeling? Not a worry. There are a myriad of resources out there to get you started. Consider getting started with programs such as Tinkercad, Sketchup, or Shapeways--these programs are great for new users. If you're stuck, don't hesistate to leverage the power of YouTube or visit iSpace open hours for some help."
+            android:textColor="#100150"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 3: Save in .STL Format"
+            android:textColor="#100150"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Most 3D printers accept the .STL file format. The 3D modeling software you're using will dictate the specific exporting and save processes you'll need to format your .STL file."
+            android:textColor="#100150"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 4: Send Your Model to the Printer"
+            android:textColor="#100150"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="There are a couple of ways users send their print jobs. 1.) Directly to the printer via USB cord connection and 2.) by removing the memory card, saving the file from the computer onto the card, and then re-inserting the card into the 3D printer. You're ready to print!"
+            android:textColor="#100150"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 5: Remove Your Print Job"
+            android:textColor="#100150"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Congratulations! Carefully remove your 3D print (how delightful!) from the build plate. Now, go show a friend or two! Well done."
+            android:textColor="#100150"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray"/>
+    </LinearLayout>
+
+</ScrollView>
+
+
