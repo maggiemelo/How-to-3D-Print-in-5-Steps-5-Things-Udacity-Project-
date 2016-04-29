@@ -1,6 +1,6 @@
 How to 3D Print in 5 Steps version 1.0 04/28/16
 
-This application is a text-based application used to educate users on the high level end-to-end process of 3D printing.
+A text-based application used to educate users on the high level end-to-end process of 3D printing.
 
 AUTHOR
 
